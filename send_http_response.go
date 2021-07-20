@@ -37,7 +37,6 @@ func SendHTTPResponse(conn *net.Conn, response *HTTPResponse) error {
 		}
 	}
 	writer.WriteString("\r\n")
-	writer.WriteString("\r\n")
 
 
 	// Write the body
